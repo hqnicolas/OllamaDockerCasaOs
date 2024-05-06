@@ -34,5 +34,6 @@ docker run -d -v /DATA/Downloads:/root/.ollama -p 11434:11434 --name ollama olla
 
 To see a prompt from your GPU usage.
 ```
+watch /opt/rocm-6.0.2/bin/rocm-smi
 docker exec -it ollamacontainername /bin/bash -c "watch rocm-smi"
 ```
