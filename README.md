@@ -1,3 +1,6 @@
+# Install Debian\Ubuntu Linux 22.04
+- Make sure that your system was fresh
+
 # Ollama to Radeon ROCm
 - Prepare Driver install
 ```
