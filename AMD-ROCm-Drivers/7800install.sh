@@ -38,3 +38,4 @@ echo -e "export HSA_OVERRIDE_GFX_VERSION=11.0.0" > ~/.profile
 # Then you can check if ROCm was installed successfully by running rocminfo. 
 # If an error is returned then something went wrong with the installation.
 # The command rocm-smi is no longer functional in the most recent version, so disregard that step from the video.
+sudo reboot now
