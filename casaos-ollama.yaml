@@ -1,0 +1,41 @@
+name: recursing_werner
+services:
+  ollama:
+    cpu_shares: 90
+    command: []
+    container_name: ollama
+    deploy:
+      resources:
+        limits:
+          memory: 31850M
+    devices:
+      - /dev/dri/card0:/dev/dri/card0
+      - /dev/kfd:/dev/kfd
+    hostname: ollama
+    image: ollama/ollama:0.1.30-rocm
+    labels:
+      icon: https://icon.casaos.io/main/all/ollama.png
+    ports:
+      - target: 11434
+        published: "11434"
+        protocol: tcp
+    privileged: true
+    restart: unless-stopped
+    volumes:
+      - type: bind
+        source: /DATA/Downloads
+        target: /root/.ollama
+    cap_add: []
+    environment: []
+    network_mode: bridge
+x-casaos:
+  author: self
+  category: self
+  hostname: ""
+  icon: https://icon.casaos.io/main/all/ollama.png
+  index: /
+  port_map: ""
+  scheme: http
+  store_app_id: recursing_werner
+  title:
+    custom: ollama
