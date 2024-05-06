@@ -1,3 +1,4 @@
+# Ollama to Radeon ROCm
 - Prepare Driver install
 ```
 wget https://github.com/hqnicolas/OllamaDockerCasaOs/blob/main/AMD-ROCm-Drivers/prepare.sh
