@@ -4,13 +4,13 @@
 # Ollama to Radeon ROCm
 - Prepare Driver install
 ```
-wget https://github.com/hqnicolas/OllamaDockerCasaOs/blob/main/AMD-ROCm-Drivers/prepare.sh
+wget https://raw.githubusercontent.com/hqnicolas/OllamaDockerCasaOs/main/AMD-ROCm-Drivers/prepare.sh
 sudo chmod 777 prepare.sh
 sudo ./prepare.sh
 ```
 - install AMD ROCm Drivers
 ```
-wget https://github.com/hqnicolas/OllamaDockerCasaOs/blob/main/AMD-ROCm-Drivers/7800install.sh
+wget https://raw.githubusercontent.com/hqnicolas/OllamaDockerCasaOs/main/AMD-ROCm-Drivers/7800install.sh
 sudo chmod 7800install.sh
 sudo ./7800install.sh
 ```
