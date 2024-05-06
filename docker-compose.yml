@@ -1,0 +1,13 @@
+name: ollama
+services:
+    ollama:
+        volumes:
+            - /DATA/Downloads:/root/.ollama
+        ports:
+            - 11434:11434
+        devices:
+            - /dev/dri/card0:/dev/dri/card0
+            - /dev/kfd:/dev/kfd
+        container_name: ollama
+        privileged: true
+        image: ollama/ollama:rocm
