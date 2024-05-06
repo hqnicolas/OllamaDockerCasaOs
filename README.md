@@ -13,6 +13,8 @@ sudo ./7800install.sh
 ```
 - install CasaOs
 ```
+sudo apt-get update -y
+sudo apt-get install curl -y
 curl -fsSL https://get.casaos.io | sudo bash
 ```
 - install Docker Compose
@@ -25,8 +27,6 @@ curl -fsSL https://get.casaos.io | sudo bash
 - Install Ollama ROCm By Docker [Compose](https://github.com/hqnicolas/OllamaDockerCasaOs/blob/main/docker-compose.yml)
 - Install By ComandLine:
 ```
-sudo apt-get install curl
-curl -fsSL https://get.casaos.io | sudo bash
 docker run -d -v /DATA/Downloads:/root/.ollama -p 11434:11434 --name ollama ollama/ollama:rocm \
 --device=/dev/dri/card0 \
 --device=/dev/kfd
