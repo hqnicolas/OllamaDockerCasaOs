@@ -4,6 +4,12 @@ wget https://github.com/hqnicolas/OllamaDockerCasaOs/blob/main/AMD-ROCm-Drivers/
 sudo chmod 777 prepare.sh
 sudo ./prepare.sh
 ```
+- install AMD ROCm Drivers
+```
+wget https://github.com/hqnicolas/OllamaDockerCasaOs/blob/main/AMD-ROCm-Drivers/7800install.sh
+sudo chmod 7800install.sh
+sudo ./7800install.sh
+```
 - Install Ollama ROCm By [CasaOs](https://github.com/hqnicolas/OllamaDockerCasaOs/blob/main/casaos-ollama.yaml)
 - Install Ollama ROCm By Docker [Compose](https://github.com/hqnicolas/OllamaDockerCasaOs/blob/main/docker-compose.yml)
 - Install By ComandLine:
