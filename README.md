@@ -11,7 +11,7 @@ sudo ./prepare.sh
 - install AMD ROCm Drivers
 ```
 wget https://raw.githubusercontent.com/hqnicolas/OllamaDockerCasaOs/main/AMD-ROCm-Drivers/7800install.sh
-sudo chmod 7800install.sh
+sudo chmod 777 7800install.sh
 sudo ./7800install.sh
 ```
 - install CasaOs
