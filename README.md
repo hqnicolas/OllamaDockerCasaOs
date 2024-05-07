@@ -18,7 +18,7 @@ sudo ./7800install.sh
 ```
 sudo apt-get update -y
 sudo apt-get install curl -y
-curl -fsSL https://get.casaos.io | sudo bash
+wget -qO- https://get.casaos.io/v0.4.7 | sudo bash
 ```
 - install Docker Compose
 ```
