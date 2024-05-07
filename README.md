@@ -22,8 +22,9 @@ curl -fsSL https://get.casaos.io | sudo bash
 ```
 - install Docker Compose
 ```
- sudo apt-get update
- sudo apt-get install docker-compose-plugin
+sudo apt-get update
+sudo apt-get install docker-compose-plugin -y
+sudo apt-get install docker-compose -y
 ```
 3 Different Ways to Run Ollama Docker:
 - Install Ollama ROCm By [CasaOs](https://github.com/hqnicolas/OllamaDockerCasaOs/blob/main/casaos-ollama.yaml)
