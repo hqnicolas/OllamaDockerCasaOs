@@ -1,18 +1,19 @@
 # Install Debian\Ubuntu Linux 22.04
-- Make sure that your system was fresh
-
-# Ollama to Radeon ROCm
-- Prepare Driver install
+- Make sure that your Debian Linux system was fresh (Also Ubuntu)
+- Prepare AMD ROCm Driver install
 ```
-wget https://raw.githubusercontent.com/hqnicolas/OllamaDockerCasaOs/main/AMD-ROCm-Drivers/prepare.sh
+sudo usermod -a -G render,video $LOGNAME
+wget https://raw.githubusercontent.com/hqnicolas/StableDiffusionROCm/main/AMD-ROCm-Drivers/prepare.sh
 sudo chmod 777 prepare.sh
 sudo ./prepare.sh
 ```
-- install AMD ROCm Drivers
+- For RDNA and RDNA 2 cards RX5000 RX6000:
 ```
-wget https://raw.githubusercontent.com/hqnicolas/OllamaDockerCasaOs/main/AMD-ROCm-Drivers/7800install.sh
-sudo chmod 777 7800install.sh
-sudo ./7800install.sh
+export HSA_OVERRIDE_GFX_VERSION=10.3.0
+```
+- For RDNA 3 cards RX7000:
+```
+export HSA_OVERRIDE_GFX_VERSION=11.0.0
 ```
 - install CasaOs
 ```
