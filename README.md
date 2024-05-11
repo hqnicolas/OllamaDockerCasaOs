@@ -1,4 +1,9 @@
 # Ollama in CasaOs Docker Compose
+
+<p align="center">
+  <img src="AMD-ROCm-Drivers/Casaos.png" alt="OLLAMA-CASAOS" width="700">
+</p>
+
 - Make sure that your Debian Linux system was fresh (Also Ubuntu)
 - Prepare AMD ROCm Driver install
 ```
