@@ -1,4 +1,4 @@
-# Install Debian\Ubuntu Linux 22.04
+# Ollama in CasaOs Docker Compose
 - Make sure that your Debian Linux system was fresh (Also Ubuntu)
 - Prepare AMD ROCm Driver install
 ```
