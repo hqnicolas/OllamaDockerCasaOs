@@ -47,3 +47,5 @@ To see a prompt from your GPU usage.
 watch /opt/rocm-6.0.2/bin/rocm-smi
 docker exec -it ollamacontainername /bin/bash -c "watch rocm-smi"
 ```
+
+If you wanna use [OpenWebUi](https://github.com/open-webui/open-webui) for chat: Look at my [Prompt's REPO](https://github.com/hqnicolas/OpenWebUiPromptTemplates)
