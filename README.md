@@ -1,4 +1,4 @@
-# AMD ROCm Ollama in CasaOs Docker Compose
+# AMD ROCm Ollama CasaOs Template
 
 <p align="center">
   <img src="AMD-ROCm-Drivers/Casaos.png" alt="OLLAMA-CASAOS" width="700">
