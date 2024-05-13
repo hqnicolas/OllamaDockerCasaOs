@@ -1,4 +1,4 @@
-# AMD ROCm Ollama CasaOs Template
+<h1 align="center"> AMD ROCm Ollama CasaOs Template</h1>
 
 <p align="center">
   <img src="AMD-ROCm-Drivers/Casaos.png" alt="OLLAMA-CASAOS" width="700">
